@@ -8,12 +8,17 @@
           "settings": {
           }
         },
+        "share": {
+          "type": "share",
+          "settings": {
+          }
+        },
         "f91a4161-d517-498e-b586-5681e576d7bf": {
           "type": "shopify:\/\/apps\/product-reviews\/blocks\/star_rating\/bae150af-8da8-48b2-9867-398188115e5f",
           "settings": {
             "stars_fill_color": "#3ed614",
-            "star_size": 15,
-            "text_align": "center",
+            "star_size": 16,
+            "text_align": "flex-start",
             "product": "{{product}}",
             "stars_text_empty": "No reviews yet"
           }
@@ -47,11 +52,6 @@
           "settings": {
           }
         },
-        "share": {
-          "type": "share",
-          "settings": {
-          }
-        },
         "3d043eaf-346c-4532-b81f-f837a3863f1b": {
           "type": "shopify:\/\/apps\/product-reviews\/blocks\/reviews\/bae150af-8da8-48b2-9867-398188115e5f",
           "settings": {
@@ -60,13 +60,13 @@
       },
       "block_order": [
         "title",
+        "share",
         "f91a4161-d517-498e-b586-5681e576d7bf",
         "subtitle",
         "price",
         "variant_picker",
         "buy_buttons",
         "description",
-        "share",
         "3d043eaf-346c-4532-b81f-f837a3863f1b"
       ],
       "settings": {
@@ -77,9 +77,9 @@
     "product-recommendations": {
       "type": "product-recommendations",
       "settings": {
-        "heading": "You may also like",
+        "heading": "You may also like these other gifts:",
         "image_ratio": "adapt",
-        "show_secondary_image": false,
+        "show_secondary_image": true,
         "add_image_padding": false,
         "show_vendor": false
       }
