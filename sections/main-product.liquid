@@ -89,6 +89,15 @@
                 <input type="hidden" name="id" value="{{ product.selected_or_first_available_variant.id }}">
                 {{ form | payment_terms }}
 
+{%- if product.metafields.personalisation != blank -%}
+
+<div style="background-color:seashell;color:black;border: 1px solid black;padding:10px;">
+
+  <div style="text-align:center;">
+    <h4>✔️ Add your personalisation to your <br><b>{{ page_title }}</b> below</b></h4>
+           <br>
+  </div>  
+
       {%- if product.metafields.personalisation["free-delivery"] != blank -%}       
        Delivery on this item is <b>FREE</b> !</b>
   
@@ -565,6 +574,8 @@
       
       {%- endif -%} 
 </div>
+
+{%- endif -%} 
 
 
               {%- endform -%}
