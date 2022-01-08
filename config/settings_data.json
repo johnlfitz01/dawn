@@ -1,7 +1,7 @@
 {
   "current": {
-    "type_header_font": "helvetica_n4",
-    "type_body_font": "helvetica_n4",
+    "type_header_font": "futura_n4",
+    "type_body_font": "futura_n4",
     "sections": {
       "announcement-bar": {
         "type": "announcement-bar",
@@ -29,7 +29,7 @@
           "logo_position": "top-center",
           "menu": "main-menu",
           "show_line_separator": false,
-          "enable_sticky_header": true
+          "enable_sticky_header": false
         }
       },
       "footer": {
